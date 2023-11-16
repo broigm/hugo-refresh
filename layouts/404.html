@@ -4,8 +4,8 @@
 {{- $subtitle   := index $page404 "subtitle" }}
 {{- $image      := index $page404 "image" }}
 <section class="hero is-fullheight is-default is-bold">
-  {{/* partial "navbar.html" . */}}
-  {{/* partial "navbar-clone.html" . */}}
+  {{ partial "navbar.html" . }}
+  {{ partial "navbar-clone.html" . }}
   <div class="hero-body">
       <div class="container">
         <div class="columns is-vcentered">
